@@ -27,7 +27,7 @@ export default function Dashboard() {
       const userObj = JSON.parse(storedUser);
       setUser(userObj);
       // Fetch analytics from backend
-      fetch(`http://localhost:3001/api/analytics/user?userId=${userObj.sub}`)
+      fetch(`/api/analytics/user?userId=${userObj.sub}`)
         .then(res => res.json())
         .then(data => {
           setAnalytics(data);
