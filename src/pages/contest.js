@@ -22,7 +22,7 @@ export default function Contest() {
               <p className="text-gray-500 text-sm">Starts: Every Sunday · Duration: 1 hour</p>
             </li>
             <li>
-              <span className="font-medium text-gray-900">Beginner's Coding Cup</span>
+              <span className="font-medium text-gray-900">Beginner&apos;s Coding Cup</span>
               <p className="text-gray-500 text-sm">Starts: May 1, 2024 · Duration: 90 minutes</p>
             </li>
           </ul>
